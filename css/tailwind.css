@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+    .img_input{
+        background-position: 9px 15px; 
+        background-repeat: no-repeat;
+        background-size: 1rem;
+    }
+    svg{
+        fill: currentColor;
+    }
+    .img_input::placeholder{
+        color: @apply text-gray-400;
+    }
+    .input_styles {
+        @apply py-3 text-gray-400 outline-none flex rounded-2xl sm:w-4/5 w-64  img_input border border-gray-400 items-center;
+    }    
+}
