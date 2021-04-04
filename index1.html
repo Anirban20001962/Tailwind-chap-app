@@ -1,56 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChatFree</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/tailwind.css">
-</head>
-<body class="font-popo">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ChatFree</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/css/tailwind.css" />
+    </head>
+    <body class="font-popo">
+        <div class="max-w-xl lg:max-w-3xl m-auto mt-28 grid">
+            <div class="p-7 flex flex-col items-center">
+                <div class="flex space-x-2">
+                    <h1
+                        class="md:text-5xl text-4xl text-center mb-4 font-bold text-gray-800 tracking-tighter"
+                    >
+                        Sign <span class="text-indigo-500">Up</span>
+                    </h1>
+                    <object
+                        type="image/svg+xml"
+                        data="images/Ame_blue_white.svg"
+                        class="w-14 h-14"
+                    >
+                        Your browser does not support SVGs
+                    </object>
+                </div>
 
-    <div class="max-w-xl lg:max-w-5xl m-auto mt-28 grid lg:grid-cols-2 md:grid-cols-1">
-        <div class="p-7 flex flex-col items-center">
-            <h1 class="text-3xl text-center p-5 font-bold text-gray-800">
-                Sign up to
-                <span>
-                    <img class="w-16 inline-block" src="./images/logo_6.svg" alt="@me">
-                </span>
-            </h1>
-            <div class="flex mb-5 justify-center">
-                
-                <img class="w-6" src="./images/facebook.svg" alt="facebook">
-                <img class="w-8" src="./images/google-plus.svg" alt="Google">
+                <!-- <div class="flex mb-2 justify-center">
+                    <img
+                        class="w-6"
+                        src="./images/facebook.svg"
+                        alt="facebook"
+                    />
+                    <img
+                        class="w-8"
+                        src="./images/google-plus.svg"
+                        alt="Google"
+                    />
+                </div> -->
+                <div class="w-full mb-2">
+                    <label for="" class="font-semibold text-gray-500"
+                        >Email</label
+                    >
+                    <input
+                        id="Email"
+                        class="pl-11 input_styles bg-email_back w-full"
+                        type="email"
+                        name="email"
+                        placeholder="johnDoe@email.com"
+                    />
+                </div>
+                <div class="w-full mb-2">
+                    <label for="Password" class="font-semibold text-gray-500"
+                        >Password</label
+                    >
+                    <input
+                        id="Password"
+                        class="pl-10 input_styles bg-lock w-full"
+                        type="password"
+                        name="password"
+                        placeholder="johneatspie"
+                    />
+                </div>
+                <div class="w-full mb-2">
+                    <label for="Password" class="font-semibold text-gray-500"
+                        >Confirm Password</label
+                    >
+                    <input
+                        id="Confirm Password"
+                        class="pl-10 input_styles bg-lock w-full"
+                        type="password"
+                        name="password"
+                        placeholder="johneatspie"
+                    />
+                </div>
+
+                <a
+                    href="#"
+                    class="btn mt-4 text-gray-100 bg-indigo-500 focus:ring-indigo-300 focus:ring-offset-transparent px-6 py-2"
+                    >Sign Up</a
+                >
             </div>
-            <input
-            class="mb-5 pl-11 input_styles bg-email_back" 
-            type="email" 
-            name="email" 
-            placeholder="Email"
-            >
-            <input
-            class="mb-5 pl-10 input_styles bg-lock" 
-            type="password" 
-            name="password" 
-            placeholder="Password"
-            >
-            <input
-            class="mb-5 pl-10 input_styles bg-lock" 
-            type="password" 
-            name="confirm_password" 
-            placeholder="Confirm Password"
-            >
-            <a href="#" class="block text-white bg-indigo-500 rounded-md px-8 text-center py-3 focus:bg-indigo-400">Submit</a>
+            <div class="">
+                <a
+                    href="./index.html"
+                    class="block mb-4 text-center text-indigo-500 hover:underline text-sm"
+                    >Already a user? click here</a
+                >
+            </div>
+            <!-- <div>
+                <h1
+                    class="mt-20 text-gray-800 text-3xl font-semibold text-center"
+                >
+                    What’s the Future of Digital Engagement?
+                </h1>
+                <p class="mt-10 mb-10 text-gray-400 text-center pl-5 pr-5">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Exercitationem, quo. Voluptates a reiciendis accusamus.
+                    Impedit molestias modi eius iure aliquam quam alias, tempora
+                    corporis iusto mollitia nam debitis, harum obcaecati!
+                </p>
+            </div> -->
         </div>
-        <div>
-            <h1 class="mt-20 text-gray-800 text-3xl font-semibold text-center">What’s the Future of Digital Engagement?</h1>
-            <p class="mt-10 mb-10 text-gray-400 text-center pl-5 pr-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quo. Voluptates a reiciendis accusamus. Impedit molestias modi eius iure aliquam quam alias, tempora corporis iusto mollitia nam debitis, harum obcaecati!</p>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
