@@ -21,13 +21,13 @@ gsap.fromTo(
     "#logo",
     {
         autoAlpha: 0,
-        scale: 1.5,
+        scale: 2,
         transformOrigin: "center center",
     },
     {
         duration: duration,
         autoAlpha: 1,
-        scale: 0.9,
+        scale: 1.2,
         transformOrigin: "center center",
     }
 );
@@ -76,11 +76,6 @@ logoBorderTl.fromTo(
             });
             gsap.set("#logo_name", {
                 fill: "#F3F4F6",
-            });
-            gsap.to("#logo", {
-                duration: duration,
-                scale: 1,
-                transformOrigin: "center center",
             });
         },
     }
