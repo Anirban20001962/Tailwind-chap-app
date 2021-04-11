@@ -17,6 +17,9 @@ module.exports = {
             screens: {
                 "sm-sm": { min: "326px", max: "600px" },
             },
+            gridTemplateColumns: {
+                "16": "auto 63%"
+            }
         },
     },
     variants: {
